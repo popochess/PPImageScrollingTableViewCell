@@ -15,6 +15,6 @@ horizontally in TableView.
 
 ##License
 
-`RMSwipeTableViewCell` is available under the MIT license. See the LICENSE file for more info.
+`PPImageScrollingTableViewCell` is under the MIT license.
 
 
