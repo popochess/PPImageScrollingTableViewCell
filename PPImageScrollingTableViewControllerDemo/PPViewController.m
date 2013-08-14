@@ -30,46 +30,46 @@
                     @{ @"category": @"Category A",
                        @"images":
                            @[
-                               @{ @"name":@"sample_1", @"title":@"A-0"},
-                               @{ @"name":@"sample_2", @"title":@"A-1"},
-                               @{ @"name":@"sample_3", @"title":@"A-2"},
-                               @{ @"name":@"sample_4", @"title":@"A-3"},
-                               @{ @"name":@"sample_5", @"title":@"A-4"},
-                               @{ @"name":@"sample_6", @"title":@"A-5"}
+                               @{ @"name":@"sample_1.jpeg", @"title":@"A-0"},
+                               @{ @"name":@"sample_2.jpeg", @"title":@"A-1"},
+                               @{ @"name":@"sample_3.jpeg", @"title":@"A-2"},
+                               @{ @"name":@"sample_4.jpeg", @"title":@"A-3"},
+                               @{ @"name":@"sample_5.jpeg", @"title":@"A-4"},
+                               @{ @"name":@"sample_6.jpeg", @"title":@"A-5"}
 
                             ]
                        },
                     @{ @"category": @"Category B",
                        @"images":
                            @[
-                               @{ @"name":@"sample_3", @"title":@"B-0"},
-                               @{ @"name":@"sample_1", @"title":@"B-1"},
-                               @{ @"name":@"sample_2", @"title":@"B-2"},
-                               @{ @"name":@"sample_5", @"title":@"B-3"},
-                               @{ @"name":@"sample_6", @"title":@"B-4"},
-                               @{ @"name":@"sample_4", @"title":@"B-5"}
+                               @{ @"name":@"sample_3.jpeg", @"title":@"B-0"},
+                               @{ @"name":@"sample_1.jpeg", @"title":@"B-1"},
+                               @{ @"name":@"sample_2.jpeg", @"title":@"B-2"},
+                               @{ @"name":@"sample_5.jpeg", @"title":@"B-3"},
+                               @{ @"name":@"sample_6.jpeg", @"title":@"B-4"},
+                               @{ @"name":@"sample_4.jpeg", @"title":@"B-5"}
                             ]
                        },
                     @{ @"category": @"Category C",
                        @"images":
                            @[
-                               @{ @"name":@"sample_6", @"title":@"C-0"},
-                               @{ @"name":@"sample_2", @"title":@"C-1"},
-                               @{ @"name":@"sample_3", @"title":@"C-2"},
-                               @{ @"name":@"sample_1", @"title":@"C-3"},
-                               @{ @"name":@"sample_5", @"title":@"C-4"},
-                               @{ @"name":@"sample_4", @"title":@"C-5"}
+                               @{ @"name":@"sample_6.jpeg", @"title":@"C-0"},
+                               @{ @"name":@"sample_2.jpeg", @"title":@"C-1"},
+                               @{ @"name":@"sample_3.jpeg", @"title":@"C-2"},
+                               @{ @"name":@"sample_1.jpeg", @"title":@"C-3"},
+                               @{ @"name":@"sample_5.jpeg", @"title":@"C-4"},
+                               @{ @"name":@"sample_4.jpeg", @"title":@"C-5"}
                             ]
                        },
                     @{ @"category": @"Category D",
                        @"images":
                            @[
-                               @{ @"name":@"sample_3", @"title":@"D-0"},
-                               @{ @"name":@"sample_1", @"title":@"D-1"},
-                               @{ @"name":@"sample_2", @"title":@"D-2"},
-                               @{ @"name":@"sample_5", @"title":@"D-3"},
-                               @{ @"name":@"sample_6", @"title":@"D-4"},
-                               @{ @"name":@"sample_4", @"title":@"D-5"}
+                               @{ @"name":@"sample_3.jpeg", @"title":@"D-0"},
+                               @{ @"name":@"sample_1.jpeg", @"title":@"D-1"},
+                               @{ @"name":@"sample_2.jpeg", @"title":@"D-2"},
+                               @{ @"name":@"sample_5.jpeg", @"title":@"D-3"},
+                               @{ @"name":@"sample_6.jpeg", @"title":@"D-4"},
+                               @{ @"name":@"sample_4.jpeg", @"title":@"D-5"}
                                ]
                        }         
                     ];
