@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A694335D17BB838B0054FED5 /* sample_1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A694335617BB838B0054FED5 /* sample_1.jpeg */; };
+		A694335E17BB838B0054FED5 /* sample_2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A694335717BB838B0054FED5 /* sample_2.jpeg */; };
+		A694335F17BB838B0054FED5 /* sample_3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A694335817BB838B0054FED5 /* sample_3.jpeg */; };
+		A694336017BB838B0054FED5 /* sample_4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A694335917BB838B0054FED5 /* sample_4.jpeg */; };
+		A694336117BB838B0054FED5 /* sample_5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A694335A17BB838B0054FED5 /* sample_5.jpeg */; };
+		A694336217BB838B0054FED5 /* sample_6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A694335B17BB838B0054FED5 /* sample_6.jpeg */; };
+		A694336317BB838B0054FED5 /* sample_7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A694335C17BB838B0054FED5 /* sample_7.jpeg */; };
+		A694336D17BB870D0054FED5 /* PPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A694336617BB870D0054FED5 /* PPCollectionViewCell.m */; };
+		A694336E17BB870D0054FED5 /* PPImageCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A694336817BB870D0054FED5 /* PPImageCollectionModel.m */; };
+		A694336F17BB870D0054FED5 /* PPImageScrollingCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A694336A17BB870D0054FED5 /* PPImageScrollingCellView.m */; };
+		A694337017BB870D0054FED5 /* PPScrollingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A694336C17BB870D0054FED5 /* PPScrollingTableViewCell.m */; };
+		A694337217BB91260054FED5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A694337117BB91260054FED5 /* Default-568h@2x.png */; };
 		A6DE32DC17B4CE6B007DE815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DE32DB17B4CE6B007DE815 /* Foundation.framework */; };
 		A6DE32DE17B4CE6B007DE815 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DE32DD17B4CE6B007DE815 /* CoreGraphics.framework */; };
 		A6DE32E017B4CE6B007DE815 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DE32DF17B4CE6B007DE815 /* UIKit.framework */; };
@@ -21,6 +33,7 @@
 		A6DE32FD17B4CE6B007DE815 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DE32DF17B4CE6B007DE815 /* UIKit.framework */; };
 		A6DE330517B4CE6B007DE815 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6DE330317B4CE6B007DE815 /* InfoPlist.strings */; };
 		A6DE330717B4CE6B007DE815 /* PPImageScrollingTableViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DE330617B4CE6B007DE815 /* PPImageScrollingTableViewControllerDemoTests.m */; };
+		A6DE33AA17B5F8E5007DE815 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DE33A917B5F8E5007DE815 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A694335617BB838B0054FED5 /* sample_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample_1.jpeg; path = images/sample_1.jpeg; sourceTree = "<group>"; };
+		A694335717BB838B0054FED5 /* sample_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample_2.jpeg; path = images/sample_2.jpeg; sourceTree = "<group>"; };
+		A694335817BB838B0054FED5 /* sample_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample_3.jpeg; path = images/sample_3.jpeg; sourceTree = "<group>"; };
+		A694335917BB838B0054FED5 /* sample_4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample_4.jpeg; path = images/sample_4.jpeg; sourceTree = "<group>"; };
+		A694335A17BB838B0054FED5 /* sample_5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample_5.jpeg; path = images/sample_5.jpeg; sourceTree = "<group>"; };
+		A694335B17BB838B0054FED5 /* sample_6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample_6.jpeg; path = images/sample_6.jpeg; sourceTree = "<group>"; };
+		A694335C17BB838B0054FED5 /* sample_7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample_7.jpeg; path = images/sample_7.jpeg; sourceTree = "<group>"; };
+		A694336517BB870D0054FED5 /* PPCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCollectionViewCell.h; sourceTree = "<group>"; };
+		A694336617BB870D0054FED5 /* PPCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCollectionViewCell.m; sourceTree = "<group>"; };
+		A694336717BB870D0054FED5 /* PPImageCollectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPImageCollectionModel.h; sourceTree = "<group>"; };
+		A694336817BB870D0054FED5 /* PPImageCollectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPImageCollectionModel.m; sourceTree = "<group>"; };
+		A694336917BB870D0054FED5 /* PPImageScrollingCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPImageScrollingCellView.h; sourceTree = "<group>"; };
+		A694336A17BB870D0054FED5 /* PPImageScrollingCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPImageScrollingCellView.m; sourceTree = "<group>"; };
+		A694336B17BB870D0054FED5 /* PPScrollingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPScrollingTableViewCell.h; sourceTree = "<group>"; };
+		A694336C17BB870D0054FED5 /* PPScrollingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPScrollingTableViewCell.m; sourceTree = "<group>"; };
+		A694337117BB91260054FED5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		A6DE32D817B4CE6B007DE815 /* PPImageScrollingTableViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPImageScrollingTableViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DE32DB17B4CE6B007DE815 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6DE32DD17B4CE6B007DE815 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +82,7 @@
 		A6DE330217B4CE6B007DE815 /* PPImageScrollingTableViewControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PPImageScrollingTableViewControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
 		A6DE330417B4CE6B007DE815 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A6DE330617B4CE6B007DE815 /* PPImageScrollingTableViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPImageScrollingTableViewControllerDemoTests.m; sourceTree = "<group>"; };
+		A6DE33A917B5F8E5007DE815 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6DE33AA17B5F8E5007DE815 /* QuartzCore.framework in Frameworks */,
 				A6DE32DE17B4CE6B007DE815 /* CoreGraphics.framework in Frameworks */,
 				A6DE32E017B4CE6B007DE815 /* UIKit.framework in Frameworks */,
 				A6DE32DC17B4CE6B007DE815 /* Foundation.framework in Frameworks */,
@@ -79,6 +110,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A694336417BB870D0054FED5 /* PPImageScrollingTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A694336517BB870D0054FED5 /* PPCollectionViewCell.h */,
+				A694336617BB870D0054FED5 /* PPCollectionViewCell.m */,
+				A694336717BB870D0054FED5 /* PPImageCollectionModel.h */,
+				A694336817BB870D0054FED5 /* PPImageCollectionModel.m */,
+				A694336917BB870D0054FED5 /* PPImageScrollingCellView.h */,
+				A694336A17BB870D0054FED5 /* PPImageScrollingCellView.m */,
+				A694336B17BB870D0054FED5 /* PPScrollingTableViewCell.h */,
+				A694336C17BB870D0054FED5 /* PPScrollingTableViewCell.m */,
+			);
+			path = PPImageScrollingTableViewCell;
+			sourceTree = "<group>";
+		};
+		A6C1513917B8040E00853D70 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A694335617BB838B0054FED5 /* sample_1.jpeg */,
+				A694335717BB838B0054FED5 /* sample_2.jpeg */,
+				A694335817BB838B0054FED5 /* sample_3.jpeg */,
+				A694335917BB838B0054FED5 /* sample_4.jpeg */,
+				A694335A17BB838B0054FED5 /* sample_5.jpeg */,
+				A694335B17BB838B0054FED5 /* sample_6.jpeg */,
+				A694335C17BB838B0054FED5 /* sample_7.jpeg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		A6DE32CF17B4CE6B007DE815 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +161,7 @@
 		A6DE32DA17B4CE6B007DE815 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A6DE33A917B5F8E5007DE815 /* QuartzCore.framework */,
 				A6DE32DB17B4CE6B007DE815 /* Foundation.framework */,
 				A6DE32DD17B4CE6B007DE815 /* CoreGraphics.framework */,
 				A6DE32DF17B4CE6B007DE815 /* UIKit.framework */,
@@ -112,11 +173,13 @@
 		A6DE32E117B4CE6B007DE815 /* PPImageScrollingTableViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A694336417BB870D0054FED5 /* PPImageScrollingTableViewCell */,
 				A6DE32EA17B4CE6B007DE815 /* PPAppDelegate.h */,
 				A6DE32EB17B4CE6B007DE815 /* PPAppDelegate.m */,
 				A6DE32ED17B4CE6B007DE815 /* Main.storyboard */,
 				A6DE32F017B4CE6B007DE815 /* PPViewController.h */,
 				A6DE32F117B4CE6B007DE815 /* PPViewController.m */,
+				A6C1513917B8040E00853D70 /* images */,
 				A6DE32F317B4CE6B007DE815 /* Images.xcassets */,
 				A6DE32E217B4CE6B007DE815 /* Supporting Files */,
 			);
@@ -126,6 +189,7 @@
 		A6DE32E217B4CE6B007DE815 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A694337117BB91260054FED5 /* Default-568h@2x.png */,
 				A6DE32E317B4CE6B007DE815 /* PPImageScrollingTableViewControllerDemo-Info.plist */,
 				A6DE32E417B4CE6B007DE815 /* InfoPlist.strings */,
 				A6DE32E717B4CE6B007DE815 /* main.m */,
@@ -230,8 +294,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6DE32F417B4CE6B007DE815 /* Images.xcassets in Resources */,
+				A694337217BB91260054FED5 /* Default-568h@2x.png in Resources */,
 				A6DE32E617B4CE6B007DE815 /* InfoPlist.strings in Resources */,
 				A6DE32EF17B4CE6B007DE815 /* Main.storyboard in Resources */,
+				A694336217BB838B0054FED5 /* sample_6.jpeg in Resources */,
+				A694335F17BB838B0054FED5 /* sample_3.jpeg in Resources */,
+				A694336017BB838B0054FED5 /* sample_4.jpeg in Resources */,
+				A694335D17BB838B0054FED5 /* sample_1.jpeg in Resources */,
+				A694335E17BB838B0054FED5 /* sample_2.jpeg in Resources */,
+				A694336117BB838B0054FED5 /* sample_5.jpeg in Resources */,
+				A694336317BB838B0054FED5 /* sample_7.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +322,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A694336E17BB870D0054FED5 /* PPImageCollectionModel.m in Sources */,
+				A694336D17BB870D0054FED5 /* PPCollectionViewCell.m in Sources */,
+				A694336F17BB870D0054FED5 /* PPImageScrollingCellView.m in Sources */,
+				A694337017BB870D0054FED5 /* PPScrollingTableViewCell.m in Sources */,
 				A6DE32EC17B4CE6B007DE815 /* PPAppDelegate.m in Sources */,
 				A6DE32F217B4CE6B007DE815 /* PPViewController.m in Sources */,
 				A6DE32E817B4CE6B007DE815 /* main.m in Sources */,
@@ -333,7 +409,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -364,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -374,7 +450,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PPImageScrollingTableViewControllerDemo/PPImageScrollingTableViewControllerDemo-Prefix.pch";
 				INFOPLIST_FILE = "PPImageScrollingTableViewControllerDemo/PPImageScrollingTableViewControllerDemo-Info.plist";
@@ -387,7 +462,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PPImageScrollingTableViewControllerDemo/PPImageScrollingTableViewControllerDemo-Prefix.pch";
 				INFOPLIST_FILE = "PPImageScrollingTableViewControllerDemo/PPImageScrollingTableViewControllerDemo-Info.plist";
@@ -455,6 +529,7 @@
 				A6DE330C17B4CE6B007DE815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6DE330D17B4CE6B007DE815 /* Build configuration list for PBXNativeTarget "PPImageScrollingTableViewControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +538,7 @@
 				A6DE330F17B4CE6B007DE815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
