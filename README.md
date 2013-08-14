@@ -7,3 +7,9 @@ horizontally in TableView.
 
 ![DemoAnimation](https://raw.github.com/popochess/PPImageScrollingTableViewCell/master/PPImageScrollingTableViewControllerDemo/DemoAnimation.gif)
 
+##`PPImageScrollingTableViewCell` Delegate Methods
+// Notifies the delegate when user click image
+```Objective-C
+// Notifies the delegate when user click image
+- (void)scrollingTableViewCell:(PPScrollingTableViewCell *)scrollingTableViewCell didSelectImageAtIndexPath:(NSIndexPath*)indexPathOfImage atCategoryRowIndex:(NSInteger)categoryRowIndex;
+```
