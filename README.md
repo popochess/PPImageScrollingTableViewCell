@@ -12,3 +12,9 @@ horizontally in TableView.
 // Notifies the delegate when user click image
 - (void)scrollingTableViewCell:(PPScrollingTableViewCell *)scrollingTableViewCell didSelectImageAtIndexPath:(NSIndexPath*)indexPathOfImage atCategoryRowIndex:(NSInteger)categoryRowIndex;
 ```
+
+##License
+
+`RMSwipeTableViewCell` is available under the MIT license. See the LICENSE file for more info.
+
+
