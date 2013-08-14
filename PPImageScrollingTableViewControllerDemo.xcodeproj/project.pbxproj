@@ -17,7 +17,7 @@
 		A694336D17BB870D0054FED5 /* PPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A694336617BB870D0054FED5 /* PPCollectionViewCell.m */; };
 		A694336E17BB870D0054FED5 /* PPImageCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A694336817BB870D0054FED5 /* PPImageCollectionModel.m */; };
 		A694336F17BB870D0054FED5 /* PPImageScrollingCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A694336A17BB870D0054FED5 /* PPImageScrollingCellView.m */; };
-		A694337017BB870D0054FED5 /* PPScrollingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A694336C17BB870D0054FED5 /* PPScrollingTableViewCell.m */; };
+		A694337017BB870D0054FED5 /* PPImageScrollingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A694336C17BB870D0054FED5 /* PPImageScrollingTableViewCell.m */; };
 		A694337217BB91260054FED5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A694337117BB91260054FED5 /* Default-568h@2x.png */; };
 		A6DE32DC17B4CE6B007DE815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DE32DB17B4CE6B007DE815 /* Foundation.framework */; };
 		A6DE32DE17B4CE6B007DE815 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DE32DD17B4CE6B007DE815 /* CoreGraphics.framework */; };
@@ -60,8 +60,8 @@
 		A694336817BB870D0054FED5 /* PPImageCollectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPImageCollectionModel.m; sourceTree = "<group>"; };
 		A694336917BB870D0054FED5 /* PPImageScrollingCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPImageScrollingCellView.h; sourceTree = "<group>"; };
 		A694336A17BB870D0054FED5 /* PPImageScrollingCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPImageScrollingCellView.m; sourceTree = "<group>"; };
-		A694336B17BB870D0054FED5 /* PPScrollingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPScrollingTableViewCell.h; sourceTree = "<group>"; };
-		A694336C17BB870D0054FED5 /* PPScrollingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPScrollingTableViewCell.m; sourceTree = "<group>"; };
+		A694336B17BB870D0054FED5 /* PPImageScrollingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPImageScrollingTableViewCell.h; sourceTree = "<group>"; };
+		A694336C17BB870D0054FED5 /* PPImageScrollingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPImageScrollingTableViewCell.m; sourceTree = "<group>"; };
 		A694337117BB91260054FED5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		A6DE32D817B4CE6B007DE815 /* PPImageScrollingTableViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPImageScrollingTableViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DE32DB17B4CE6B007DE815 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -113,14 +113,14 @@
 		A694336417BB870D0054FED5 /* PPImageScrollingTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				A694336B17BB870D0054FED5 /* PPImageScrollingTableViewCell.h */,
+				A694336C17BB870D0054FED5 /* PPImageScrollingTableViewCell.m */,
 				A694336517BB870D0054FED5 /* PPCollectionViewCell.h */,
 				A694336617BB870D0054FED5 /* PPCollectionViewCell.m */,
 				A694336717BB870D0054FED5 /* PPImageCollectionModel.h */,
 				A694336817BB870D0054FED5 /* PPImageCollectionModel.m */,
 				A694336917BB870D0054FED5 /* PPImageScrollingCellView.h */,
 				A694336A17BB870D0054FED5 /* PPImageScrollingCellView.m */,
-				A694336B17BB870D0054FED5 /* PPScrollingTableViewCell.h */,
-				A694336C17BB870D0054FED5 /* PPScrollingTableViewCell.m */,
 			);
 			path = PPImageScrollingTableViewCell;
 			sourceTree = "<group>";
@@ -325,7 +325,7 @@
 				A694336E17BB870D0054FED5 /* PPImageCollectionModel.m in Sources */,
 				A694336D17BB870D0054FED5 /* PPCollectionViewCell.m in Sources */,
 				A694336F17BB870D0054FED5 /* PPImageScrollingCellView.m in Sources */,
-				A694337017BB870D0054FED5 /* PPScrollingTableViewCell.m in Sources */,
+				A694337017BB870D0054FED5 /* PPImageScrollingTableViewCell.m in Sources */,
 				A6DE32EC17B4CE6B007DE815 /* PPAppDelegate.m in Sources */,
 				A6DE32F217B4CE6B007DE815 /* PPViewController.m in Sources */,
 				A6DE32E817B4CE6B007DE815 /* main.m in Sources */,

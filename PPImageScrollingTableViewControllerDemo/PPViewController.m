@@ -7,7 +7,7 @@
 //
 
 #import "PPViewController.h"
-#import "PPScrollingTableViewCell.h"
+#import "PPImageScrollingTableViewCell.h"
 
 @interface PPViewController()<PPImageScrollingTableViewCellDelegate>
 

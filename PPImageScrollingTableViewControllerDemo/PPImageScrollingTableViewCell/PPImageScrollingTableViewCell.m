@@ -6,7 +6,7 @@
 //  Copyright (c) 2013年 popochess. All rights reserved.
 //
 
-#import "PPScrollingTableViewCell.h"
+#import "PPImageScrollingTableViewCell.h"
 #import "PPImageScrollingCellView.h"
 
 #define kScrollingViewHieght 120
