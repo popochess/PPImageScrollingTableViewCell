@@ -15,6 +15,6 @@ horizontally in TableView.
 
 ##License
 
-`PPImageScrollingTableViewCell` is under the MIT license.
+`PPImageScrollingTableViewCell` is released under the MIT license.
 
 
