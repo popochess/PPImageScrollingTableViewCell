@@ -11,6 +11,7 @@
 
 @protocol PPImageScrollingTableViewCellDelegate <NSObject>
 
+// Notifies the delegate when user click image
 - (void)scrollingTableViewCell:(PPScrollingTableViewCell *)scrollingTableViewCell didSelectImageAtIndexPath:(NSIndexPath*)indexPathOfImage atCategoryRowIndex:(NSInteger)categoryRowIndex;
 
 @end
