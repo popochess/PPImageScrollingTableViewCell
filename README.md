@@ -5,5 +5,5 @@ horizontally in TableView.
 
 `PPImageScrollingTableViewCell` allows to customize the cell to match your needs and uses delegate callbacks to handle actions in your `UITableViewController`
 
-![PPImageScrollingTableViewCell Animation](https://github.com/popochess/PPImageScrollingTableViewCell/blob/master/PPImageScrollingTableViewControllerDemo/PPImageScrollingTableViewCellDemoAnimation.gif)
+![PPImageScrollingTableViewControllerDemo Animation](https://github.com/popochess/PPImageScrollingTableViewCell/blob/master/PPImageScrollingTableViewControllerDemo/PPImageScrollingTableViewCellDemoAnimation.gif)
 
