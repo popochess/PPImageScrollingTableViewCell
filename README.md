@@ -1,6 +1,6 @@
 PPImageScrollingTableViewCell
 =============================
-`PPImageScrollingTableViewCell` is a `UITableViewCell` subclass that make images can scroll 
+`PPImageScrollingTableViewCell` is a `UITableViewCell` subclass that can make images scrollable
 horizontally in TableView.
 
 `PPImageScrollingTableViewCell` allows to customize the cell to match your needs and uses delegate callbacks to handle actions in your `UITableViewController`
@@ -8,7 +8,7 @@ horizontally in TableView.
 ![DemoAnimation](https://raw.github.com/popochess/PPImageScrollingTableViewCell/master/PPImageScrollingTableViewControllerDemo/DemoAnimation.gif)
 
 ##Installing 
-Add all file which are under `PPImageScrollingTableViewCell` file to your project. Import the class header and register the cell class in your UITableView.
+Add all files under `PPImageScrollingTableViewCell` folder to your project. Import the class header and register the cell class in your UITableView.
 
 ##Usage
 Set sample data first. use `@"category"` and `@"images"` for key of Dictionary
