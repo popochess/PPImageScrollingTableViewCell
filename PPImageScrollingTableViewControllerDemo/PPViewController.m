@@ -92,6 +92,7 @@
     static NSString *CellIdentifier = @"Cell";
     NSDictionary *cellData = [self.images objectAtIndex:[indexPath section]];
     PPScrollingTableViewCell *customCell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    [customCell setBackgroundColor:[UIColor grayColor]];
     [customCell setDelegate:self];
     [customCell setImageData:cellData];
     [customCell setCategoryLabelText:[cellData objectForKey:@"category"] withColor:[UIColor whiteColor]];
