@@ -5,7 +5,7 @@ horizontally in TableView.
 
 `PPImageScrollingTableViewCell` allows to customize the cell to match your needs and uses delegate callbacks to handle actions in your `UITableViewController`
 
-![DemoAnimation](https://raw.github.com/popochess/PPImageScrollingTableViewCell/master/PPImageScrollingTableViewControllerDemo/DemoAnimation.gif)
+![DemoAnimation](https://raw.github.com/popochess/PPImageScrollingTableViewCell/master/PPImageScrollingTableViewControllerDemo/animation.gif)
 
 ##Installing 
 Add all files under `PPImageScrollingTableViewCell` folder to your project. Import the class header and register the cell class in your UITableView.
