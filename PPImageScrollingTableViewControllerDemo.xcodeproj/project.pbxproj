@@ -16,7 +16,6 @@
 		A694336217BB838B0054FED5 /* sample_6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A694335B17BB838B0054FED5 /* sample_6.jpeg */; };
 		A694336317BB838B0054FED5 /* sample_7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A694335C17BB838B0054FED5 /* sample_7.jpeg */; };
 		A694336D17BB870D0054FED5 /* PPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A694336617BB870D0054FED5 /* PPCollectionViewCell.m */; };
-		A694336E17BB870D0054FED5 /* PPImageCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A694336817BB870D0054FED5 /* PPImageCollectionModel.m */; };
 		A694336F17BB870D0054FED5 /* PPImageScrollingCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A694336A17BB870D0054FED5 /* PPImageScrollingCellView.m */; };
 		A694337017BB870D0054FED5 /* PPImageScrollingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A694336C17BB870D0054FED5 /* PPImageScrollingTableViewCell.m */; };
 		A694337217BB91260054FED5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A694337117BB91260054FED5 /* Default-568h@2x.png */; };
@@ -57,8 +56,6 @@
 		A694335C17BB838B0054FED5 /* sample_7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample_7.jpeg; path = images/sample_7.jpeg; sourceTree = "<group>"; };
 		A694336517BB870D0054FED5 /* PPCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCollectionViewCell.h; sourceTree = "<group>"; };
 		A694336617BB870D0054FED5 /* PPCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCollectionViewCell.m; sourceTree = "<group>"; };
-		A694336717BB870D0054FED5 /* PPImageCollectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPImageCollectionModel.h; sourceTree = "<group>"; };
-		A694336817BB870D0054FED5 /* PPImageCollectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPImageCollectionModel.m; sourceTree = "<group>"; };
 		A694336917BB870D0054FED5 /* PPImageScrollingCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPImageScrollingCellView.h; sourceTree = "<group>"; };
 		A694336A17BB870D0054FED5 /* PPImageScrollingCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPImageScrollingCellView.m; sourceTree = "<group>"; };
 		A694336B17BB870D0054FED5 /* PPImageScrollingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPImageScrollingTableViewCell.h; sourceTree = "<group>"; };
@@ -117,8 +114,6 @@
 				A694336C17BB870D0054FED5 /* PPImageScrollingTableViewCell.m */,
 				A694336517BB870D0054FED5 /* PPCollectionViewCell.h */,
 				A694336617BB870D0054FED5 /* PPCollectionViewCell.m */,
-				A694336717BB870D0054FED5 /* PPImageCollectionModel.h */,
-				A694336817BB870D0054FED5 /* PPImageCollectionModel.m */,
 				A694336917BB870D0054FED5 /* PPImageScrollingCellView.h */,
 				A694336A17BB870D0054FED5 /* PPImageScrollingCellView.m */,
 			);
@@ -322,7 +317,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A694336E17BB870D0054FED5 /* PPImageCollectionModel.m in Sources */,
 				A694336D17BB870D0054FED5 /* PPCollectionViewCell.m in Sources */,
 				A694336F17BB870D0054FED5 /* PPImageScrollingCellView.m in Sources */,
 				A694337017BB870D0054FED5 /* PPImageScrollingTableViewCell.m in Sources */,
