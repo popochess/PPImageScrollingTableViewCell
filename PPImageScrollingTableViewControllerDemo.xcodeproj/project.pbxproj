@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A607E2FC17C1D694006A9BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A607E2FA17C1D693006A9BB9 /* Main.storyboard */; };
 		A694335D17BB838B0054FED5 /* sample_1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A694335617BB838B0054FED5 /* sample_1.jpeg */; };
 		A694335E17BB838B0054FED5 /* sample_2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A694335717BB838B0054FED5 /* sample_2.jpeg */; };
 		A694335F17BB838B0054FED5 /* sample_3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A694335817BB838B0054FED5 /* sample_3.jpeg */; };
@@ -25,7 +26,6 @@
 		A6DE32E617B4CE6B007DE815 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6DE32E417B4CE6B007DE815 /* InfoPlist.strings */; };
 		A6DE32E817B4CE6B007DE815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DE32E717B4CE6B007DE815 /* main.m */; };
 		A6DE32EC17B4CE6B007DE815 /* PPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DE32EB17B4CE6B007DE815 /* PPAppDelegate.m */; };
-		A6DE32EF17B4CE6B007DE815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DE32ED17B4CE6B007DE815 /* Main.storyboard */; };
 		A6DE32F217B4CE6B007DE815 /* PPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DE32F117B4CE6B007DE815 /* PPViewController.m */; };
 		A6DE32F417B4CE6B007DE815 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6DE32F317B4CE6B007DE815 /* Images.xcassets */; };
 		A6DE32FB17B4CE6B007DE815 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DE32FA17B4CE6B007DE815 /* XCTest.framework */; };
@@ -47,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A607E2FB17C1D693006A9BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A694335617BB838B0054FED5 /* sample_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample_1.jpeg; path = images/sample_1.jpeg; sourceTree = "<group>"; };
 		A694335717BB838B0054FED5 /* sample_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample_2.jpeg; path = images/sample_2.jpeg; sourceTree = "<group>"; };
 		A694335817BB838B0054FED5 /* sample_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample_3.jpeg; path = images/sample_3.jpeg; sourceTree = "<group>"; };
@@ -73,7 +74,6 @@
 		A6DE32E917B4CE6B007DE815 /* PPImageScrollingTableViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PPImageScrollingTableViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
 		A6DE32EA17B4CE6B007DE815 /* PPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPAppDelegate.h; sourceTree = "<group>"; };
 		A6DE32EB17B4CE6B007DE815 /* PPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPAppDelegate.m; sourceTree = "<group>"; };
-		A6DE32EE17B4CE6B007DE815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6DE32F017B4CE6B007DE815 /* PPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPViewController.h; sourceTree = "<group>"; };
 		A6DE32F117B4CE6B007DE815 /* PPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPViewController.m; sourceTree = "<group>"; };
 		A6DE32F317B4CE6B007DE815 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -176,9 +176,9 @@
 				A694336417BB870D0054FED5 /* PPImageScrollingTableViewCell */,
 				A6DE32EA17B4CE6B007DE815 /* PPAppDelegate.h */,
 				A6DE32EB17B4CE6B007DE815 /* PPAppDelegate.m */,
-				A6DE32ED17B4CE6B007DE815 /* Main.storyboard */,
 				A6DE32F017B4CE6B007DE815 /* PPViewController.h */,
 				A6DE32F117B4CE6B007DE815 /* PPViewController.m */,
+				A607E2FA17C1D693006A9BB9 /* Main.storyboard */,
 				A6C1513917B8040E00853D70 /* images */,
 				A6DE32F317B4CE6B007DE815 /* Images.xcassets */,
 				A6DE32E217B4CE6B007DE815 /* Supporting Files */,
@@ -296,9 +296,9 @@
 				A6DE32F417B4CE6B007DE815 /* Images.xcassets in Resources */,
 				A694337217BB91260054FED5 /* Default-568h@2x.png in Resources */,
 				A6DE32E617B4CE6B007DE815 /* InfoPlist.strings in Resources */,
-				A6DE32EF17B4CE6B007DE815 /* Main.storyboard in Resources */,
 				A694336217BB838B0054FED5 /* sample_6.jpeg in Resources */,
 				A694335F17BB838B0054FED5 /* sample_3.jpeg in Resources */,
+				A607E2FC17C1D694006A9BB9 /* Main.storyboard in Resources */,
 				A694336017BB838B0054FED5 /* sample_4.jpeg in Resources */,
 				A694335D17BB838B0054FED5 /* sample_1.jpeg in Resources */,
 				A694335E17BB838B0054FED5 /* sample_2.jpeg in Resources */,
@@ -351,20 +351,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A607E2FA17C1D693006A9BB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A607E2FB17C1D693006A9BB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		A6DE32E417B4CE6B007DE815 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A6DE32E517B4CE6B007DE815 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A6DE32ED17B4CE6B007DE815 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A6DE32EE17B4CE6B007DE815 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		A6DE330317B4CE6B007DE815 /* InfoPlist.strings */ = {
