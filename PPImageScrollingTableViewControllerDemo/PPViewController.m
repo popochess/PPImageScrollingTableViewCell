@@ -25,7 +25,7 @@
     [self.tableView setBackgroundColor:[UIColor grayColor]];
     
     static NSString *CellIdentifier = @"Cell";
-    [self.tableView registerClass:[PPScrollingTableViewCell class] forCellReuseIdentifier:CellIdentifier];    
+    [self.tableView registerClass:[PPImageScrollingTableViewCell class] forCellReuseIdentifier:CellIdentifier];
     self.images = @[
                     @{ @"category": @"Category A",
                        @"images":
@@ -91,7 +91,7 @@
 {
     static NSString *CellIdentifier = @"Cell";
     NSDictionary *cellData = [self.images objectAtIndex:[indexPath section]];
-    PPScrollingTableViewCell *customCell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    PPImageScrollingTableViewCell *customCell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     [customCell setBackgroundColor:[UIColor grayColor]];
     [customCell setDelegate:self];
     [customCell setImageData:cellData];
@@ -119,7 +119,7 @@
 
 #pragma mark - PPImageScrollingTableViewCellDelegate
 
-- (void)scrollingTableViewCell:(PPScrollingTableViewCell *)scrollingTableViewCell didSelectImageAtIndexPath:(NSIndexPath*)indexPathOfImage atCategoryRowIndex:(NSInteger)categoryRowIndex
+- (void)scrollingTableViewCell:(PPImageScrollingTableViewCell *)scrollingTableViewCell didSelectImageAtIndexPath:(NSIndexPath*)indexPathOfImage atCategoryRowIndex:(NSInteger)categoryRowIndex
 {
 
     NSDictionary *images = [self.images objectAtIndex:categoryRowIndex];

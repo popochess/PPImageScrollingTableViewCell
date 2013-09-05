@@ -7,16 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-@class PPScrollingTableViewCell;
+@class PPImageScrollingTableViewCell;
 
 @protocol PPImageScrollingTableViewCellDelegate <NSObject>
 
 // Notifies the delegate when user click image
-- (void)scrollingTableViewCell:(PPScrollingTableViewCell *)scrollingTableViewCell didSelectImageAtIndexPath:(NSIndexPath*)indexPathOfImage atCategoryRowIndex:(NSInteger)categoryRowIndex;
+- (void)scrollingTableViewCell:(PPImageScrollingTableViewCell *)scrollingTableViewCell didSelectImageAtIndexPath:(NSIndexPath*)indexPathOfImage atCategoryRowIndex:(NSInteger)categoryRowIndex;
 
 @end
 
-@interface PPScrollingTableViewCell : UITableViewCell
+@interface PPImageScrollingTableViewCell : UITableViewCell
 
 @property (weak, nonatomic) id<PPImageScrollingTableViewCellDelegate> delegate;
 @property (nonatomic) CGFloat height;

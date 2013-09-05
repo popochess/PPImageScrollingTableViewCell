@@ -14,7 +14,7 @@
 #define kCategoryLabelHieght 30
 #define kStartPointY 30
 
-@interface PPScrollingTableViewCell() <PPImageScrollingViewDelegate>
+@interface PPImageScrollingTableViewCell() <PPImageScrollingViewDelegate>
 
 @property (strong,nonatomic) UIColor *categoryTitleColor;
 @property(strong, nonatomic) PPImageScrollingCellView *imageScrollingView;
@@ -22,7 +22,7 @@
 
 @end
 
-@implementation PPScrollingTableViewCell
+@implementation PPImageScrollingTableViewCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
