@@ -58,7 +58,7 @@ Subclass PPImageScrollingTableViewCell in tableview delegate
 {
     static NSString *CellIdentifier = @"Cell";
     NSDictionary *cellData = [self.images objectAtIndex:[indexPath section]];
-    PPScrollingTableViewCell *customCell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    PPImageScrollingTableViewCell *customCell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     [customCell setDelegate:self];
     [customCell setImageData:cellData];
     [customCell setCategoryLabelText:[cellData objectForKey:@"category"] withColor:[UIColor whiteColor]];
@@ -74,7 +74,7 @@ Subclass PPImageScrollingTableViewCell in tableview delegate
 ##`PPImageScrollingTableViewCell` Delegate Methods
 ```Objective-C
 // Notifies the delegate when user click image
-- (void)scrollingTableViewCell:(PPScrollingTableViewCell *)scrollingTableViewCell didSelectImageAtIndexPath:(NSIndexPath*)indexPathOfImage atCategoryRowIndex:(NSInteger)categoryRowIndex;
+- (void)scrollingTableViewCell:(PPImageScrollingTableViewCell *)scrollingTableViewCell didSelectImageAtIndexPath:(NSIndexPath*)indexPathOfImage atCategoryRowIndex:(NSInteger)categoryRowIndex;
 ```
 
 ##License
