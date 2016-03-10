@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'PPImageScrollingTableViewCell'
-  s.platform = :ios, '6.1'
+  s.platform = :ios, '7.1'
   s.version      = '1.0.0'
   s.summary      = 'It is a UITableViewCell subclass that can make images scrollable horizontally in TableView'
   s.author = {
