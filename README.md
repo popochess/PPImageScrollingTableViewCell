@@ -10,10 +10,10 @@ horizontally in TableView.
 
 ![DemoAnimation](https://raw.github.com/popochess/PPImageScrollingTableViewCell/gh-pages/images/animation.gif)
 
-##Installing 
+## Installing 
 Add all files under `PPImageScrollingTableViewCell` folder to your project. Import the class header and register the cell class in your UITableView.
 
-##Usage
+## Usage
 Set sample data first. use `@"category"` and `@"images"` for key of Dictionary
 ```Objective-C
 @property (strong, nonatomic) NSArray *images;
