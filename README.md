@@ -74,13 +74,13 @@ Subclass PPImageScrollingTableViewCell in tableview delegate
 }
 ```
 
-##`PPImageScrollingTableViewCell` Delegate Methods
+## `PPImageScrollingTableViewCell` Delegate Methods
 ```Objective-C
 // Notifies the delegate when user click image
 - (void)scrollingTableViewCell:(PPImageScrollingTableViewCell *)scrollingTableViewCell didSelectImageAtIndexPath:(NSIndexPath*)indexPathOfImage atCategoryRowIndex:(NSInteger)categoryRowIndex;
 ```
 
-##License
+## License
 
 `PPImageScrollingTableViewCell` is released under the MIT license.
 
